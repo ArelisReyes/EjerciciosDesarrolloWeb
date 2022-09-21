@@ -1,0 +1,16 @@
+.rosa{
+    color: #A23786;
+}
+.btnrosa{
+    background-color: #A23786;
+    border-color: #A23786;
+}
+.borde{
+    border-color: #A23786;
+    border: 2px solid #A23786;
+    border-radius: 5px;
+}
+.contorno{
+    border-color: #A23786;
+    border: 10px solid #A23786;
+}

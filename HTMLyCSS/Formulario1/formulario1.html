@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Formulario 1</title>
+  </head>
+  <body>
+    <form class="forms" action="">
+      <div>
+        <table class="borde" style="width: 100%">
+          <tr>
+            <td>
+              <h2 class="redtitle" style="text-align: center">
+                FORMULARIO DE INSCRIPCIÓN
+              </h2>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <!--Tabla de datos personales-->
+      <div class="blacktitle azul">
+        <table class="borde" style="width: 100%">
+          <tr>
+            <td>
+              <h3>DATOS PERSONALES</h3>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div>
+        <table class="borde">
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">Nombre:</td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="nombre"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">Apellido</td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="apellido"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">Dirección</td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="direccion"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">Teléfono</td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="telefono"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">
+              Correo electrónico
+            </td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="correo"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">Documento</td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="documento"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">
+              Fecha de nacimiento
+            </td>
+            <td class="blanco">
+              <input class="dato" type="date" name="fecha" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <!--Tabla de capacitación-->
+      <table class="borde azul" style="width: 100%">
+        <tr>
+          <td>
+            <h3 class="blacktitle">CAPACITACIÓN</h3>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <div class="blacktitle">
+        <table class="borde" style="width: 100%">
+          <tr>
+            <td class="azul" style="width: 18%">Curso</td>
+            <td class="blanco" style="width: 22%">
+              <select name="curse" class="blacktitle">
+                <option value="">Elija un curso</option>
+                <option value="1">Curso 1</option>
+                <option value="2">Curso 2</option>
+                <option value="3">Curso 3</option>
+                <option value="4">Curso 4</option>
+              </select>
+            </td>
+            <td class="azul" colspan="4">Días</td>
+          </tr>
+          <tr>
+            <td class="azul" style="width: 18%">Horario</td>
+            <td class="blanco" style="width: 22%">Elija un horario</td>
+            <td class="blanco" style="width: 13%">
+              Lunes <input type="checkbox" name="Lunes" label="Lunes" />
+            </td>
+            <td class="blanco" style="width: 14%">
+              Martes <input type="checkbox" name="Martes" label="MArtes" />
+            </td>
+            <td class="blanco" style="width: 17%">
+              Miercoles
+              <input type="checkbox" name="Miercoles" label="Miercoles" />
+            </td>
+            <td class="blanco">
+              Jueves <input type="checkbox" name="Jueves" label="Jueves" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <!--Tabla de Metodos de pago-->
+      <div>
+        <table class="borde azul" style="width: 100%">
+          <tr>
+            <td>
+              <h3 class="blacktitle azul">
+                <ul>
+                  <li type="square">PLAN DE PAGO</li>
+                </ul>
+              </h3>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div class="blacktitle">
+        <table class="borde" style="width: 100%">
+          <tr>
+            <td class="blanco" style="width: 2%">
+              <input type="radio" name="" id="" />
+            </td>
+            <td class="azul" style="width: 30%">Contado</td>
+            <td class="blanco">Moneda</td>
+          </tr>
+          <tr>
+            <td class="blanco" style="width: 20%">
+              <input type="radio" name="" id="" />
+            </td>
+            <td class="azul" style="width: 30%">Crédito</td>
+            <td class="blanco">Tarjeta</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <!--Tabla de datos institucionales-->
+      <div class="blacktitle azul">
+        <table class="borde" style="width: 100%">
+          <tr>
+            <td>
+              <h3>DATOS DE LA INSTITUCIÓN</h3>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div>
+        <table class="borde" style="width: 100%">
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">N° Contrato:</td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="contrato"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">
+              Persona que atendió
+            </td>
+            <td class="blanco">
+              <input
+                class="dato"
+                type="text"
+                name="Persona que atendió"
+                placeholder="Haga clic aquí para escribir texto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 25%" class="blacktitle azul">
+              Fecha de inscripción:
+            </td>
+            <td class="blanco">
+              <input class="dato" type="date" name="fecha" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>
